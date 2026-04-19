@@ -80,6 +80,7 @@ nav a {
   text-decoration: none;
   color: inherit;
   transition: color 0.2s ease;
+  z-index: 999;
 }
 
 nav a:hover {
@@ -96,6 +97,7 @@ nav a:hover {
   font-weight: 500;
   transition: background-color 0.2s ease;
   cursor: pointer;
+  z-index: 999;
 }
 
 .sign-in-button:hover {
@@ -267,6 +269,7 @@ main {
   .robot-3d {
     top: -25%;
     right: 0;
+    z-index: 998;
   }
 
   .content {
